@@ -1,7 +1,9 @@
 import puter from "@heyputer/puter.js";
 import {getOrCreateHostingConfig, uploadImageToHosting} from "./puter.hosting";
 import {isHostedUrl} from "./utils";
-import {PUTER_WORKER_URL} from "./constants";
+import {PUTER_WORKER_URL as _PUTER_WORKER_URL} from "./constants";
+
+const PUTER_WORKER_URL = _PUTER_WORKER_URL.replace(/\/$/, "");
 
 export const signIn = async () => await puter.auth.signIn();
 
