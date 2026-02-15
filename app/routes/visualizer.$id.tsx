@@ -234,7 +234,7 @@ const VisualizerId = () => {
                 }
                 itemTwo={
                   <ReactCompareSliderImage
-                    src={currentImage || project?.renderedImage}
+                    src={currentImage || project?.renderedImage || undefined}
                     alt="after"
                     className="compare-img"
                   />

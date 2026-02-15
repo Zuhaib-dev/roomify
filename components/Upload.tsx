@@ -97,7 +97,7 @@ const Upload = ({ onComplete }: UploadProps) => {
     };
 
     return (
-        <div className="upload">
+        <div aria-label='upload' className="upload">
             {!file ? (
                 <div
                     className={`dropzone ${isDragging ? 'is-dragging' : ''}`}
@@ -122,7 +122,7 @@ const Upload = ({ onComplete }: UploadProps) => {
                                 "Click to upload or just drag and drop"
                             ): ("Sign in or sign up with Puter to upload")}
                         </p>
-                        <p className="help">Maximum file size 50 MB.</p>
+                        <p className="help">Maximum file size 10 MB.</p>
                     </div>
                 </div>
             ) : (
