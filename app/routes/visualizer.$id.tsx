@@ -28,10 +28,12 @@ export function meta({ params }: Route.MetaArgs) {
       property: "og:description",
       content: "AI-generated architectural visualization created with Roomify.",
     },
+    { property: "og:image", content: "/og-image.jpg" },
 
     // Twitter Card
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:creator", content: "@xuhaib_x9" },
+    { name: "twitter:image", content: "/og-image.jpg" },
   ];
 }
 

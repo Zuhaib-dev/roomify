@@ -49,6 +49,8 @@ export function meta({}: Route.MetaArgs) {
       content:
         "Transform 2D floor plans into photorealistic 3D renders using state-of-the-art AI.",
     },
+    { name: "twitter:image", content: "/og-image.jpg" },
+    { property: "og:image", content: "/og-image.jpg" },
   ];
 }
 
