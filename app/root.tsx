@@ -36,6 +36,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Zuhaib Rashid" />
+        <meta name="creator" content="Zuhaib Rashid" />
+        <meta name="publisher" content="Zuhaib Rashid" />
+        <meta name="theme-color" content="#f97316" />
         <Meta />
         <Links />
       </head>
