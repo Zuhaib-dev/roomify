@@ -59,6 +59,39 @@ export function Layout({ children }: { children: React.ReactNode }) {
           content="PhC4G2XmPO_iZ5yQFaXvkOkJHHJEwRRJsjygMozyteA"
         />
         <link rel="canonical" href="https://airoomify.netlify.app/" />
+
+        {/* Default Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Roomify" />
+        <meta
+          property="og:title"
+          content="Roomify - AI-Powered Architectural Visualization"
+        />
+        <meta
+          property="og:description"
+          content="Transform 2D floor plans into photorealistic 3D renders using state-of-the-art AI. Built by Zuhaib Rashid."
+        />
+        <meta
+          property="og:image"
+          content="https://airoomify.netlify.app/og-image.jpg"
+        />
+
+        {/* Default Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@xuhaib_x9" />
+        <meta
+          name="twitter:title"
+          content="Roomify - AI-Powered Architectural Visualization"
+        />
+        <meta
+          name="twitter:description"
+          content="Transform 2D floor plans into photorealistic 3D renders using state-of-the-art AI."
+        />
+        <meta
+          name="twitter:image"
+          content="https://airoomify.netlify.app/og-image.jpg"
+        />
+
         <Meta />
         <Links />
       </head>
